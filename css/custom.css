@@ -8,13 +8,18 @@ body.home {
 }
 
 body.galerija {
-	background-image: url("../img/chicken1.jpg");
+	background-image: url("../img/chicken2.jpg");
 	background-position: center;
 }
 
 body.onama {
 	background-image: url("../img/chicken3.jpg");
 }
+
+body.kontakt {
+	background-image: url("../img/chicken1.jpg");
+}
+
 
 /*
 ** NAVIGACIJA **
