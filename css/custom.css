@@ -1,0 +1,165 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+body.home {
+	background-image: url("../img/kokos_pozadina.jpg");
+}
+
+body.galerija {
+	background-image: url("../img/chicken1.jpg");
+	background-position: center;
+}
+
+body.onama {
+	background-image: url("../img/chicken3.jpg");
+}
+
+/*
+** NAVIGACIJA **
+*/
+
+.navbar-nav li a {
+	text-transform: uppercase;
+	font-family:"Play";
+	font-size: 1.5vw;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #63A0E0;
+    background-color: transparent;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a.current {
+    color: #fff;
+    background-color: transparent;
+}
+
+/*
+** FONT **
+*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family:"Play";
+}
+
+/*
+* MAIN HEADER TOP
+*/
+
+.jumbotron {
+	text-align: center;
+	color: white;
+	background-color:transparent;
+	padding-top: 0px;
+}
+
+.jumbotron .container {
+	max-width: 100%;
+    padding-bottom: 60px;
+}
+
+.jumbotron h1{
+	color:white;
+	font-size: 6.8vw;	
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.farma {
+	font-family:"Play";
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 85px;
+	margin-bottom:20px;
+}
+
+/*
+** FEATURES **
+*/
+
+.features {
+	margin-top: -80px;
+	padding-top: 28px;
+	text-align:center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.features p {
+	font-size: 90%;
+	margin-bottom:40px;
+	margin-top: -10px;
+}
+
+.features img {
+	margin-bottom: -10px;
+}
+
+/*
+** FOOTER **
+*/
+
+footer {
+	text-align:center;
+	font-family:"Play";
+	font-size: 1vw;
+}
+
+/*
+** CAROUSEL **
+*/
+
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+.carousel-inner{
+  width:100%;
+  max-height: 500px !important;
+}
+
+.carousel-inner .item {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 979px) {
+    div.corousel-inner.my-inner {       
+        border-top: 10px;
+        border-left: 10px;
+        border-right: 10px;
+        border-bottom: 10px;
+        border-color: #fff;
+        border-style: solid;
+    }
+}  
+
+/*
+** O NAMA SPECIAL CSS
+*/
+
+.onamaslika {
+	padding-left: 32px;
+	padding-top: 20px;
+	padding-bottom: 120px;
+}
