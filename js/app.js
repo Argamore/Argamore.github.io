@@ -380,7 +380,7 @@ function initializeMap() {
     var lat = '44.70267539'; //Set your latitude.
     var lon = '18.30950037'; //Set your longitude.
 
-    var centerLon = lon;
+    var centerLon = lon + 0.015;
 
     var myOptions = {
         scrollwheel: false,
